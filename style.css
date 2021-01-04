@@ -57,11 +57,15 @@ p {
 }
 #full-stack {
   border-left: 7px solid;
-  background-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
   border-image-slice: 1;
 }
 #baby-web {
   border-left: 7px solid;
-  background-image: linear-gradient(180deg, blue, cyan);
+  border-image: linear-gradient(180deg, blue, cyan);
   border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  font-size: 14px;
 }
